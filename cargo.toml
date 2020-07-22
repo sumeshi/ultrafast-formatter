@@ -1,0 +1,14 @@
+[package]
+name = "uf2"
+version = "0.1.0"
+authors = ["sumeshi <j15322sn@gmail.com>"]
+
+[lib]
+name = "uf2"
+crate-type = ["cdylib"]
+
+[dependencies]
+
+[dependencies.pyo3]
+version = "0.11.1"
+features = ["extension-module"]

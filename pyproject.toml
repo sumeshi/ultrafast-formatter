@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ultrafast-formatter"
+version = "0.1.0"
+description = ""
+authors = ["sumeshi <j15322sn@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+maturin = "^0.8.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["maturin"]
+build-backend = "maturin"
